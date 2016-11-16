@@ -13,6 +13,8 @@
 		D15534261CD34A210077625A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15534241CD34A210077625A /* Main.storyboard */; };
 		D15534281CD34A210077625A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15534271CD34A210077625A /* Assets.xcassets */; };
 		D155342B1CD34A210077625A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15534291CD34A210077625A /* LaunchScreen.storyboard */; };
+		D15534331CD34A360077625A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15534321CD34A360077625A /* CoreMotion.framework */; };
+		D15534351CD34D940077625A /* IMG_0580.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15534341CD34D940077625A /* IMG_0580.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D15534271CD34A210077625A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D155342A1CD34A210077625A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D155342C1CD34A210077625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15534321CD34A360077625A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D15534341CD34D940077625A /* IMG_0580.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0580.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15534331CD34A360077625A /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 		D155340F1CD34A210077625A = {
 			isa = PBXGroup;
 			children = (
+				D15534321CD34A360077625A /* CoreMotion.framework */,
 				D155341A1CD34A210077625A /* AccelerometerDemo */,
 				D15534191CD34A210077625A /* Products */,
 			);
@@ -66,6 +72,7 @@
 				D15534271CD34A210077625A /* Assets.xcassets */,
 				D15534291CD34A210077625A /* LaunchScreen.storyboard */,
 				D155342C1CD34A210077625A /* Info.plist */,
+				D15534341CD34D940077625A /* IMG_0580.JPG */,
 				D155341B1CD34A210077625A /* Supporting Files */,
 			);
 			path = AccelerometerDemo;
@@ -137,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15534351CD34D940077625A /* IMG_0580.JPG in Resources */,
 				D155342B1CD34A210077625A /* LaunchScreen.storyboard in Resources */,
 				D15534281CD34A210077625A /* Assets.xcassets in Resources */,
 				D15534261CD34A210077625A /* Main.storyboard in Resources */,
